@@ -145,6 +145,15 @@
           "tag": {
             "description": "Tag to specify the type",
             "type": "string"
+          },
+          "color": {
+            "description": "The color of the plant",
+            "type": "string",
+            "enum": [
+              "red",
+              "green",
+              "blue"
+            ]
           }
         }
       },
